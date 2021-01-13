@@ -6,9 +6,9 @@ import android.widget.Toast;
 public class Kirim {
     Context context;
     String pesan;
-    public KirimPesan() {
+    public Kirim() {
     }
-    public KirimPesan(Context context, String pesan) {
+    public Kirim(Context context, String pesan) {
         this.context = context;
         this.pesan = pesan;
     }
@@ -27,5 +27,4 @@ public class Kirim {
     public void Kirim(Context context,String pesan){
         Toast.makeText(context, pesan, Toast.LENGTH_SHORT).show();
     }
-}
 }
