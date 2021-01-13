@@ -1,0 +1,3 @@
+include ':AgnisAafaLibrary'
+include ':app'
+rootProject.name = "ProjectAgnisLibrary"
